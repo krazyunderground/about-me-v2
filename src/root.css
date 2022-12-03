@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope&display=swap);
+
+body {
+  background-color: #1f1f1f;
+  font-family: 'manrope', Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: #d4d4d4;
+  margin-right: 1rem;
+}
+
+main {
+  color: #d4d4d4;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #d4d4d4;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.1;
+  margin: 4rem auto;
+  max-width: 14rem;
+}
+
+p {
+  color: #d4d4d4;
+  max-width: 14rem;
+  margin: 2rem auto;
+  line-height: 1.35;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    color: #d4d4d4;
+    max-width: none;
+  }
+
+  p {
+    color: #d4d4d4;
+    max-width: none;
+  }
+}
+
+strong {
+  color: #c80000
+}
+
+em {
+  color: #c80000
+}
