@@ -10,7 +10,7 @@
   .item {
     background-color: brown;
     border-radius: 0.5em;
-    background-color: #707070;
+    background-color: #404040;
     padding: 1em;
     width: 20em;
     text-align: center;
@@ -27,7 +27,7 @@
   .title {
     font-size: 1.2em;
     font-weight: 400;
-    color: #d4d4d4;
+    color: #F4F4F4;
   }
   
   .title:hover {
@@ -36,13 +36,13 @@
   
   .description {
     font-size: 1em;
-    color: #d4d4d4;
+    color: #F4F4F4;
   }
   
   .date {
     margin: unset;
     font-size: 0.9em;
-    color: #d4d4d4;
+    color: #F4F4F4;
   }
   
   .thumbnail {

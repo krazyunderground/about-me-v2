@@ -16,6 +16,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
+    "gsap": "^3.11.3",
     "rollup": "2",
     "solid-js": "^1.6.2",
     "solid-mdx": "^0.0.6",
