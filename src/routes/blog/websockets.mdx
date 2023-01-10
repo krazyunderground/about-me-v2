@@ -1,0 +1,40 @@
+import { ArticleHead } from '../../components'
+export const title = 'Websockets'
+export const date = 'January 10, 2023'
+export const description = 'Some experimentation'
+export const thumbnailUrl = '/websockets.png'
+
+<ArticleHead title={title} date={date} description={description} thumbnailUrl={thumbnailUrl} />
+
+# {title}
+
+<img src={thumbnailUrl} alt={title} />
+
+# Dashboards
+As a part of the rewrite for Blot, I've been investigating into how I can make a dashboard so I dont have to use an inferior menu-driven settings command in discord.
+The issue is that most menu driven settings menus are *imitating* dashboards, which means that they are clunkier, much harder to work with, and incredibly slow in comparison.
+
+Bots like **Wick** use commands instead of menus, although effective, I want to strive for something that's a little less utilitarian and something that can challenge me.
+I've never been able to understand front-end development, but using what I've learnt from creating this website I've decided to use when attempting to make the dashboard.
+
+# Experimentation
+I did some research, and initially stumbled upon SSE protocols - or server sent events.
+While useful in some cases, like a live clock, its **monodirectional**, meaning that data can only travel in one way. 
+
+Ideally for the way I wanted the dashboard to communicate with the backend, I would need **bidirectional** transfer. 
+That's when I discovered websockets, I first made a HTML website where you pressed a button which would send a message to the server, and the server sent one back. 
+
+I then **"borrowed"** the code from [This codepen](https://codesandbox.io/s/solid-websocket-forked-fb01iz?file=/src/index.tsx)which allowed me to use the websocket with solidjs, a framework im now familiar with.
+I modified it slightly so it would add the term "set" to the beginning of the message so the backend would store it in a database - in this case I was using quick.db.
+Then, I made a discord bot that would use the term "get" to get the current value set by the website
+#### Side discovery
+It was at this point I discovered how to use **Promises** in a function as well. Since a standard callback didnt work for extracting a value from an event, I looked it up and found out Promises did.
+<img src={'/promises-screenshot.jpg'} alt={"A screenshot of the solution I used would have gone here"} />
+This was the solution I ended up with, it works well!
+
+# Outcome
+Now I know how to send request from a frontend to a backend using websockets, and using another websocket to get that data from a discord bot, I now have the basic knowledge on how to code a dashboard 🥳
+
+All of the code can be found [Here](https://github.com/krazyunderground/solidjs-websocket-test/)
+<br/>
+So long and farewell, Krazy
