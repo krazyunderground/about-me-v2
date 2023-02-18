@@ -44,7 +44,7 @@ export default function Root() {
             </Suspense>
             <footer use:animationup>
               Any questions? Check <A href='/about'><strong>About me</strong></A> <br />
-              OR Ask me in my <strong>DM</strong>s on <strong>Discord</strong> at <strong>Krazyunderground#0001</strong>
+              OR Ask me in my <strong>DM</strong>s on <strong>Discord</strong> at <strong>Krazyunderground#0002</strong>
             </footer>
           </ErrorBoundary>
         <Scripts />
