@@ -1,6 +1,8 @@
 // @refresh reload
 import gsap from "gsap";
 import { Suspense } from "solid-js";
+import { AiOutlineTwitter, AiOutlineGithub, AiOutlineMail } from 'solid-icons/ai'
+import { BsDiscord } from 'solid-icons/bs'
 import {
   A,
   Body,
@@ -43,8 +45,8 @@ export default function Root() {
               </main>
             </Suspense>
             <footer use:animationup>
-              Any questions? Check <A href='/about'><strong>About me</strong></A> <br />
-              OR Ask me in my <strong>DM</strong>s on <strong>Discord</strong> at <strong>Krazyunderground#0001</strong>
+              <A href="https://twitter.com/krazy_ug"><AiOutlineTwitter size={48} /></A> <a href="https://github.com/krazyunderground"><AiOutlineGithub size={48} /></a> <A href="discord://-/users/832810404882677761/"><BsDiscord  size={48}/></A><br />
+              <strong>krazy@krazyunderground.xyz</strong>
             </footer>
           </ErrorBoundary>
         <Scripts />
