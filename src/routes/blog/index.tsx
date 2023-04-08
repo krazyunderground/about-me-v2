@@ -41,7 +41,7 @@ const Home = () => {
               <div>
                 <h2 class={styles.title}>{post.title}</h2>
                 <p class={styles.description}>{post.description}</p>
-                <p class={styles.date}>{post.date}</p>
+                <p class={styles.date}>{new Date(post.date).toLocaleDateString()}</p>
               </div>
             </A>
           )}
