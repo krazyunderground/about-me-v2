@@ -6,7 +6,7 @@ const ArticleHead = ({title, description}) => {
             <Title>{title} - Solid Blog</Title>
             <Meta name="description" content={description}/>
             <Meta property='og:description' content={description} />
-            <Meta property='og:title' content={`${title} - Solid Blog`} />
+            <Meta property='og:title' content={`${title}`} />
         </Head>
     )
 }

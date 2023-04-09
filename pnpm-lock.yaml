@@ -4,6 +4,7 @@ specifiers:
   '@mdx-js/rollup': ^2.1.5
   '@solidjs/meta': ^0.28.0
   '@solidjs/router': ^0.5.0
+  acronym: ^1.0.0
   gsap: ^3.11.3
   rollup: '2'
   sass: ^1.56.1
@@ -20,6 +21,7 @@ specifiers:
 dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.2
   '@solidjs/router': 0.5.1_solid-js@1.6.2
+  acronym: 1.0.0
   gsap: 3.11.3
   rollup: 2.79.1
   solid-icons: 1.0.4_solid-js@1.6.2
@@ -1450,6 +1452,15 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
+  /acronym/1.0.0:
+    resolution: {integrity: sha512-yDzemBabcGLjFsxEg9je12/Tkz7gBlVL7zRTDdAI6+FUGEtcnmNys3/FHeNwNjdTOH0bDK7xe6WTeLx7VK0UKw==}
+    dependencies:
+      lodash.capitalize: 4.2.1
+      lodash.defaults: 4.2.0
+      lodash.lowercase: 4.3.0
+      more-words: 1.0.2
+    dev: false
+
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -2502,8 +2513,20 @@ packages:
   /kolorist/1.6.0:
     resolution: {integrity: sha512-dLkz37Ab97HWMx9KTes3Tbi3D1ln9fCAy2zr2YVExJasDRPGRaKcoE4fycWNtnCAJfjFqe0cnY+f8KT2JePEXQ==}
 
+  /lodash.capitalize/4.2.1:
+    resolution: {integrity: sha512-kZzYOKspf8XVX5AvmQF94gQW0lejFVgb80G85bU4ZWzoJ6C03PQg3coYAUpSTpQWelrZELd3XWgHzw4Ck5kaIw==}
+    dev: false
+
   /lodash.debounce/4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
+
+  /lodash.defaults/4.2.0:
+    resolution: {integrity: sha512-qjxPLHd3r5DnsdGacqOMU6pb/avJzdh9tFX2ymgoZE27BmjXrNy/y4LoaiTeAb+O3gL8AfpJGtqfX/ae2leYYQ==}
+    dev: false
+
+  /lodash.lowercase/4.3.0:
+    resolution: {integrity: sha512-UcvP1IZYyDKyEL64mmrwoA1AbFu5ahojhTtkOUr1K9dbuxzS9ev8i4TxMMGCqRC9TE8uDaSoufNAXxRPNTseVA==}
+    dev: false
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -2921,6 +2944,10 @@ packages:
 
   /minimist/1.2.7:
     resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
+
+  /more-words/1.0.2:
+    resolution: {integrity: sha512-WTofyj/5qthtg9ocRUUdeHvYJYN/lit0Ek678DOLnmaJkRlQvpclea+Qq85chfqP7n/hL39AxVhDrTp/vn3Nww==}
+    dev: false
 
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
