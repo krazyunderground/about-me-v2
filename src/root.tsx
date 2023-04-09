@@ -46,7 +46,7 @@ export default function Root() {
             </Suspense>
             <footer use:animationup>
               <A href="https://twitter.com/krazy_ug"><AiOutlineTwitter size={48} /></A> <a href="https://github.com/krazyunderground"><AiOutlineGithub size={48} /></a> <A href="discord://-/users/832810404882677761/"><BsDiscord  size={48}/></A><br />
-              <strong>krazy@krazyunderground.xyz</strong>
+              <strong>krazy&commat;krazyunderground&period;xyz</strong>
             </footer>
           </ErrorBoundary>
         <Scripts />
