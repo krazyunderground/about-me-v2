@@ -22,10 +22,6 @@ const animationdown = (element, _accessor) => {
   gsap.from(element, {duration: 1, x: "100%", ease:"power4"})
 }
 
-const animationup = (element, _accessor) => {
-  gsap.from(element, {duration: 1, y: "6000%", ease:"power4"})
-}
-
 export default function Root() {
   return (
     <Html lang="en">
@@ -44,7 +40,7 @@ export default function Root() {
                 </Routes>
               </main>
             </Suspense>
-            <footer use:animationup>
+            <footer use:animationdown>
               <A href="https://twitter.com/krazy_ug"><AiOutlineTwitter size={48} /></A> <a href="https://github.com/krazyunderground"><AiOutlineGithub size={48} /></a> <A href="discord://-/users/832810404882677761/"><BsDiscord  size={48}/></A><br />
               <strong>krazy&commat;krazyunderground&period;xyz</strong>
             </footer>

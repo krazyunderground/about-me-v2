@@ -35,7 +35,7 @@ const Home = () => {
           {(post) => (
             <A class={styles.item} href={`/blog/${post.slug}`}>
               <div class={styles.thumbnail}>
-                <img src={post.thumbnailUrl} alt="thumbnail" loading="lazy" />
+                <img style="max-width: 100%;" src={post.thumbnailUrl} alt="thumbnail" loading="lazy" />
               </div>
 
               <div>
