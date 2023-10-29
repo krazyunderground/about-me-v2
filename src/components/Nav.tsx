@@ -10,8 +10,6 @@ function Nav() {
     return (
         <nav class={styles.nav} use:animation>
             <A href="/">Home</A>
-            <A href="/about">About</A>
-            <A href="/blog">Blog</A>
             <A href="/BBG">BBG</A>
         </nav>
     )
