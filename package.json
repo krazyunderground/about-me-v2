@@ -7,24 +7,24 @@
   },
   "type": "module",
   "devDependencies": {
-    "@mdx-js/rollup": "^2.1.5",
-    "sass": "^1.56.1",
-    "solid-start-node": "^0.2.0",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.8"
+    "@mdx-js/rollup": "^2.3.0",
+    "sass": "^1.75.0",
+    "solid-start-node": "^0.2.32",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.10"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.0",
-    "@solidjs/router": "^0.5.0",
+    "@solidjs/meta": "^0.28.7",
+    "@solidjs/router": "^0.5.1",
     "acronym": "^1.0.0",
-    "gsap": "^3.11.3",
-    "rollup": "2",
-    "solid-icons": "^1.0.4",
-    "solid-js": "^1.6.2",
+    "gsap": "^3.12.5",
+    "rollup": "^2.79.1",
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.8.16",
     "solid-mdx": "^0.0.6",
-    "solid-start": "^0.2.0",
-    "solid-start-vercel": "^0.2.7",
-    "undici": "^5.11.0"
+    "solid-start": "^0.2.32",
+    "solid-start-vercel": "^0.2.32",
+    "undici": "^5.28.4"
   },
   "engines": {
     "node": ">=18"
