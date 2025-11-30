@@ -14,7 +14,7 @@
     "vite": "^4.4.6"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.7",
+    "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.8.2",
     "acronym": "^1.0.0",
     "gsap": "^3.12.5",
