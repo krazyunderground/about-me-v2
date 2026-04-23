@@ -1,0 +1,99 @@
+{
+  "_index-CBPIhtCd.js": {
+    "file": "assets/index-CBPIhtCd.js",
+    "name": "index",
+    "imports": [
+      "_web-CubqW7I-.js"
+    ]
+  },
+  "_web-CubqW7I-.js": {
+    "file": "assets/web-CubqW7I-.js",
+    "name": "web"
+  },
+  "src/routes/BBG.tsx?pick=default&pick=$css": {
+    "file": "assets/BBG-Cw21ITL7.js",
+    "name": "BBG",
+    "src": "src/routes/BBG.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CBPIhtCd.js",
+      "_web-CubqW7I-.js"
+    ]
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-D96ou7_u.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CBPIhtCd.js",
+      "_web-CubqW7I-.js"
+    ]
+  },
+  "src/routes/goop.tsx?pick=default&pick=$css": {
+    "file": "assets/goop-B8TY8Pmy.js",
+    "name": "goop",
+    "src": "src/routes/goop.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-CubqW7I-.js",
+      "_index-CBPIhtCd.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-C5MWyHP4.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-CubqW7I-.js",
+      "_index-CBPIhtCd.js"
+    ]
+  },
+  "src/routes/voxnet-privacy.tsx?pick=default&pick=$css": {
+    "file": "assets/voxnet-privacy-D5iC8ino.js",
+    "name": "voxnet-privacy",
+    "src": "src/routes/voxnet-privacy.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-CubqW7I-.js",
+      "_index-CBPIhtCd.js"
+    ]
+  },
+  "src/routes/voxnet.tsx?pick=default&pick=$css": {
+    "file": "assets/voxnet-BkiUg4cg.js",
+    "name": "voxnet",
+    "src": "src/routes/voxnet.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CBPIhtCd.js",
+      "_web-CubqW7I-.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-CEEdEF_v.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_web-CubqW7I-.js"
+    ],
+    "dynamicImports": [
+      "src/routes/BBG.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/goop.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/voxnet-privacy.tsx?pick=default&pick=$css",
+      "src/routes/voxnet.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-CYbGdxR8.css"
+    ]
+  }
+}

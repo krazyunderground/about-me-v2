@@ -1,0 +1,1 @@
+import{createComponent as e,mergeProps as r,ssr as p,ssrHydrationKey as m}from"solid-js/web";import{useMDXComponents as s}from"solid-mdx";var u=["<img",' src="/onthegoop.jpg">'];function o(t){return p(u,m())}function a(t={}){const{wrapper:n}={...s(),...t.components};return n?e(n,r(t,{get children(){return e(o,t)}})):o()}function f(){return e(a,{})}export{f as default};

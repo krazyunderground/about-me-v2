@@ -1,0 +1,67 @@
+{
+  "src/routes/BBG.tsx?pick=default&pick=$css": {
+    "file": "BBG.js",
+    "name": "BBG",
+    "src": "src/routes/BBG.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "_...404_.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/goop.tsx?pick=default&pick=$css": {
+    "file": "goop.js",
+    "name": "goop",
+    "src": "src/routes/goop.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "index.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/voxnet-privacy.tsx?pick=default&pick=$css": {
+    "file": "voxnet-privacy.js",
+    "name": "voxnet-privacy",
+    "src": "src/routes/voxnet-privacy.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/voxnet.tsx?pick=default&pick=$css": {
+    "file": "voxnet.js",
+    "name": "voxnet",
+    "src": "src/routes/voxnet.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/BBG.tsx?pick=default&pick=$css",
+      "src/routes/BBG.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/goop.tsx?pick=default&pick=$css",
+      "src/routes/goop.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/voxnet-privacy.tsx?pick=default&pick=$css",
+      "src/routes/voxnet-privacy.tsx?pick=default&pick=$css",
+      "src/routes/voxnet.tsx?pick=default&pick=$css",
+      "src/routes/voxnet.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/ssr-CYbGdxR8.css"
+    ]
+  }
+}

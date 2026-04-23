@@ -1,0 +1,1 @@
+import{c as e,x as r,z as a,B as m}from"./web-CubqW7I-.js";import{M as p}from"./index-CBPIhtCd.js";var c=m("<img src=/onthegoop.jpg>");function o(t){return a(c)}function u(t={}){const{wrapper:n}={...p(),...t.components};return n?e(n,r(t,{get children(){return e(o,t)}})):o()}function i(){return e(u,{})}export{i as default};

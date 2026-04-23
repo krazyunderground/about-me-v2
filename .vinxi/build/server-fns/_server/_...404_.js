@@ -1,0 +1,1 @@
+import{createComponent as e,mergeProps as c}from"solid-js/web";import{useMDXComponents as r}from"solid-mdx";function o(n){const t={h1:"h1",...r(),...n.components};return e(t.h1,{children:"Page Not Found"})}function u(n={}){const{wrapper:t}={...r(),...n.components};return t?e(t,c(n,{get children(){return e(o,n)}})):o(n)}function i(){return e(u,{})}export{i as default};

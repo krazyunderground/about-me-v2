@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noImplicitAny": false,
+    "jsxImportSource": "solid-js",
+    "jsx": "preserve",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["vite/client", "node"],
+    "paths": {
+      "@solidjs/start/router": ["./node_modules/@solidjs/start/dist/router/index.d.ts"],
+      "@solidjs/start/client": ["./node_modules/@solidjs/start/dist/client/index.d.ts"],
+      "@solidjs/start/server": ["./node_modules/@solidjs/start/dist/server/index.d.ts"]
+    }
+  }
+}

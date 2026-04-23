@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope&display=swap);
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/mountains.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #333333;
+  position: center;
+  font-family: 'manrope', Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  position: center;
+}
+
+a {
+  color: #F4F4F4;
+  margin-right: 1rem;
+}
+
+main {
+  color: #F4F4F4;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+footer {
+  color: #848484;
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+
+h1 {
+  color: #F4F4F4;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 1.1;
+  margin: 2rem auto;
+  /* max-width: 80%; */
+}
+
+p {
+  color: #F4F4F4;
+  max-width: 14rem;
+  margin: 2rem auto;
+  line-height: 1.35;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    color: #F4F4F4;
+    max-width: none;
+  }
+
+  p {
+    color: #F4F4F4;
+    max-width: none;
+  }
+}
+
+strong {
+  color: #c80000
+}
+
+em {
+  color: #c80000
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,34 @@
+import PP from "../components/PetalPatch"
+
+# PETAL PATCH
+
+<PP />
+
+**A browser-based plant genetics game where you explore procedurally-generated plants.**
+
+## What is it?
+
+PetalPatch is an interactive genetics simulator. You start with a small collection of starter plants, each with unique genetics. Cross-breed them to create offspring, watch them grow through distinct life stages—from tiny seed to full bloom—and discover how small genetic changes lead to dramatically different plant forms.
+
+Every plant is entirely procedural: no two are exactly alike. Growth is governed by **L-system grammars** (formal rules that expand iteratively), meaning plant structure is data-driven and emergent rather than hand-drawn. Combine that with carefully tuned randomness, and you get plants that feel alive and surprising.
+
+## How It Works (Technical)
+
+Each plant is defined by a **genome** containing:
+- **Axiom**: starting symbol string
+- **Production rules**: grammar transformations (e.g., "F → F[+F][-F]")
+- **Parameters**: branch angles, segment lengths, leaf size, bloom probability
+
+**Breeding** blends two parent genomes: axioms splice, rules mix (unique parent rules included with probability), parameters interpolate, and mutations add variation. Offspring are never exact clones—even crossing identical genomes twice yields visibly different plants.
+
+**Growth** is stage-based (Seed → Sprout → Sapling → Juvenile → Mature → Blooming), with each stage expanding the L-system grammar to add more branches, leaves, and petals. Rendering uses turtle graphics: each symbol in the expanded string is a drawing command (forward, turn, branch, etc.).
+
+**The visual result**: plants with rich structure—varying branch density, leaf placement, and bloom patterns—all emerging from compact, genetic rules.
+
+## Built With
+
+Godot 4.6 (GDScript), L-system parsing, procedural noise (FastNoiseLite), and persistent JSON save files.
+
+---
+
+Start with a single starter variety. Breed it with itself or others. See what evolves.
