@@ -6,6 +6,13 @@
     "isEntry": true,
     "isDynamicEntry": true
   },
+  "src/routes/PP.tsx?pick=default&pick=$css": {
+    "file": "PP.js",
+    "name": "PP",
+    "src": "src/routes/PP.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
     "file": "_...404_.js",
     "name": "_...404_",
@@ -49,6 +56,8 @@
     "dynamicImports": [
       "src/routes/BBG.tsx?pick=default&pick=$css",
       "src/routes/BBG.tsx?pick=default&pick=$css",
+      "src/routes/PP.tsx?pick=default&pick=$css",
+      "src/routes/PP.tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/goop.tsx?pick=default&pick=$css",

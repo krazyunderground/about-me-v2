@@ -21,6 +21,17 @@
       "_web-CubqW7I-.js"
     ]
   },
+  "src/routes/PP.tsx?pick=default&pick=$css": {
+    "file": "assets/PP-D9NrcgjY.js",
+    "name": "PP",
+    "src": "src/routes/PP.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-CBPIhtCd.js",
+      "_web-CubqW7I-.js"
+    ]
+  },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
     "file": "assets/_...404_-D96ou7_u.js",
     "name": "_...404_",
@@ -77,7 +88,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CEEdEF_v.js",
+    "file": "assets/client-Ce3kvGjy.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -86,6 +97,7 @@
     ],
     "dynamicImports": [
       "src/routes/BBG.tsx?pick=default&pick=$css",
+      "src/routes/PP.tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/goop.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",

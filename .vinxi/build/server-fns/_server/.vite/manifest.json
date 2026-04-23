@@ -1,10 +1,12 @@
 {
-  "_server-fns-Du-AoxPQ.js": {
-    "file": "assets/server-fns-Du-AoxPQ.js",
+  "_server-fns-DEuYRb-T.js": {
+    "file": "assets/server-fns-DEuYRb-T.js",
     "name": "server-fns",
     "dynamicImports": [
       "src/routes/BBG.tsx?pick=default&pick=$css",
       "src/routes/BBG.tsx?pick=default&pick=$css",
+      "src/routes/PP.tsx?pick=default&pick=$css",
+      "src/routes/PP.tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/goop.tsx?pick=default&pick=$css",
@@ -19,12 +21,12 @@
     ]
   },
   "src/app.tsx": {
-    "file": "assets/app-CCk8I7qb.js",
+    "file": "assets/app-wiL1SvsS.js",
     "name": "app",
     "src": "src/app.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_server-fns-Du-AoxPQ.js"
+      "_server-fns-DEuYRb-T.js"
     ],
     "css": [
       "assets/app-CYbGdxR8.css"
@@ -34,6 +36,13 @@
     "file": "BBG.js",
     "name": "BBG",
     "src": "src/routes/BBG.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/PP.tsx?pick=default&pick=$css": {
+    "file": "PP.js",
+    "name": "PP",
+    "src": "src/routes/PP.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true
   },
@@ -78,7 +87,7 @@
     "src": "virtual:$vinxi/handler/server-fns",
     "isEntry": true,
     "imports": [
-      "_server-fns-Du-AoxPQ.js"
+      "_server-fns-DEuYRb-T.js"
     ]
   }
 }
