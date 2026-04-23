@@ -22,7 +22,7 @@
     ]
   },
   "src/routes/PP.tsx?pick=default&pick=$css": {
-    "file": "assets/PP-Cyql6uW7.js",
+    "file": "assets/PP-Crjv2Cxk.js",
     "name": "PP",
     "src": "src/routes/PP.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -88,7 +88,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DsMWmQ7e.js",
+    "file": "assets/client-BxwS8wFp.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,

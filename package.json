@@ -1,7 +1,7 @@
 {
   "name": "v2-solidstartjs",
   "scripts": {
-    "dev": "vinxi dev",
+    "dev": "vinxi dev --host",
     "build": "vinxi build",
     "start": "vinxi start"
   },
