@@ -16,11 +16,15 @@ const PP = () => {
 
   onMount(() => {
     updateScale();
-    window.addEventListener("resize", updateScale);
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", updateScale);
+    }
   });
 
   onCleanup(() => {
-    window.removeEventListener("resize", updateScale);
+    if (typeof window !== "undefined") {
+      window.removeEventListener("resize", updateScale);
+    }
   });
 
   return (
