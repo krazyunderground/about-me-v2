@@ -19,6 +19,7 @@ function Nav() {
             <A href="/">Home</A>
             <A href="/BBG">BBG</A>
             <A href="PP">PP</A>
+            <A href="/ds2026">DS2026</A>
         </nav>
     )
 }
